@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Password Strength provides a platform that let's users check the strength of their password">
+    <meta name="keywords" content="Password Strength">
+    <meta name="author" content="Michael Obasi">
+    <title>Password Strength</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+      <!-- HEADER -->
+      <header class="header">
+        <div class="logo">
+          <img src="https://raw.githubusercontent.com/kleva-j/MyChatBot/gh-pages/logo.png" alt="logo">
+        </div>
+      </header>
+
+      <!-- SECTION -->
+      <section class="section">
+
+        <main>
+          <h3>Password validator</h3>
+          <form class="form">
+            <p class="head">Password:</p>
+            <input type="password" placeholder="Please enter password" class="password">
+            <p class="warning"></p>
+            <div class="details">
+              <div class="status">
+                  <span class="indicator"></span>
+                  <span class="indicator"></span>
+                  <span class="indicator"></span>
+                  <span class="indicator"></span>
+                  <span>0%</span>
+              </div>
+
+              <ul class="hint"> Hint:
+                <li>At least one letter between <strong>[ a - z ]</strong><b>✓</b></li>
+                <li>At least one letter between <strong>[ A - Z ]</strong><b>✓</b></li>
+                <li>At least one number between <strong>[ 1 - 9 ]</strong><b>✓</b></li>
+              <li>At least one character among <strong>[ $ @ # & ! ]</strong><b>✓</b></li>
+              </ul>
+            </div>
+            <input type="submit" value="check strength" id="button">
+          </form>
+
+        </main>
+
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer"></footer>
+
+  </body>
+
+</html>
